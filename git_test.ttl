@@ -26,6 +26,7 @@
 
 	 sendln
 	 pause 1
+<<<<<<< HEAD
 	  
 	 sendln 'blade-power reset'
 	 wait 'Success'   
@@ -36,6 +37,9 @@
 
 	 dispstr "=== TEST COMPLETED ==="
 
+=======
+	 dispstr "=== TEST COMPLETED BY KKM ==="
+>>>>>>> 507a5caafe74fcf2694fcf03cd0dd228542c206f
 	 pause 1
 	 sendln
 	 end
