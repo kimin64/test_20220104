@@ -7,9 +7,15 @@
 	 timeout = 300
 	 sendln 'blade-power off'
 	 wait 'Success'   
-	 
 	 pause 2
 	 sendln
+	 pause 1
+	  
+	 sendln 'blade-power on'
+	 wait 'Success'   
+	 pause 2
+	 sendln
+	 	  
 	 pause 1
 	 dispstr "=== TEST COMPLETED ==="
 	 pause 1
