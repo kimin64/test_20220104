@@ -17,7 +17,7 @@
 	 sendln
 	 	  
 	 pause 1
-	 dispstr "=== TEST COMPLETED BY KKM ==="
+	 dispstr "=== TEST COMPLETED ==="
 	 pause 1
 	 sendln
 	 end
